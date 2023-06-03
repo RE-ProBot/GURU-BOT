@@ -7,7 +7,7 @@ let handler = async function (m, { conn, args, usedPrefix}) {
   let sn = createHash('md5').update(m.sender).digest('hex')
   if (args[0] !== sn) throw '⚠️ *Incorrect serial number*'
   user.registered = false
-  m.reply(`✅ Register eliminated`)
+  m.reply(`✅ Your Registered Data is Sucessfully Deleted.`)
 }
 handler.help = ['unreg <Num Serie>'] 
 handler.tags = ['rg']

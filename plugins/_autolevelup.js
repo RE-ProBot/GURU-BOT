@@ -18,6 +18,7 @@ export async function before(m, { conn }) {
  
  _to deactivate write_
 _*/off autolevelup*_
+*Or use your Dashboard on api.notbump.com/dash*
 	`.trim())
     }
 }

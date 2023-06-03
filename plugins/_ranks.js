@@ -69,6 +69,7 @@ global.rpg = {
       { name: 'Uranus V', level: 1020 }, { name: 'Uranus IV', level: 1024 }, { name: 'Uranus III', level: 1028 }, { name: 'Uranus II', level: 1032 }, { name: 'Uranus I', level: 1036 },
       { name: 'Venus V', level: 1040 }, { name: 'Venus IV', level: 1044 }, { name: 'Venus III', level: 1048 }, { name: 'Venus II', level: 1052 }, { name: 'Venus I', level: 1056 },
       { name: 'Zeus V', level: 1060 }, { name: 'Zeus IV', level: 1064 }, { name: 'Zeus III', level: 1068 }, { name: 'Zeus II', level: 1072 }, { name: 'Zeus I', level: 1076 },
+      { name: 'Ulti V', level: 1100 }, { name: 'Ulti IV', level: 1164 }, { name: 'Ulti III', level: 1168 }, { name: 'Ulti II', level: 1172 }, { name: 'VIP', level: 2076 },
     ]
 
     return role.reverse().find(role => level >= role.level)

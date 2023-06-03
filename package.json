@@ -1,5 +1,5 @@
 { 
-    "name": "GURU",
+    "name": "Notbump",
     "version": "0.0.1",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
@@ -19,27 +19,31 @@
         "whatsapp",
         "js-whatsapp",
         "whatsapp",
-        "guru-bot",
-        "GURU-bot-md",
+        "Notbump-bot",
+        "Notbump-bot-md",
         "multi-device",
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Guru322/GURU-BOT",
+    "homepage": "https://github.com/RE-ProBot/Notbump_MD",
     "author": {
-        "name": "GURU"
+        "name": "Notbump"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Guru322/GURU-BOT.git"
+        "url": "git+https://github.com/RE-ProBot/Notbump_MD.git"
     },
     "bugs": {
-        "url": "https://github.com/Guru322/GURU-BOT/issues"
+        "url": "https://github.com/RE-ProBot/Notbump_MD/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
+<<<<<<< Updated upstream
         "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@^6.0.1",
         "@adiwajshing/keyed-db": "^0.2.4",
+=======
+        "@adiwajshing/baileys":  "github:Notbump322/baileys",
+>>>>>>> Stashed changes
         "@bochilteam/scraper": "^3.0.0",
         "awesome-phonenumber": "^3.4.0",
         "acrcloud": "^1.4.0",

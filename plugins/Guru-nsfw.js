@@ -10,8 +10,13 @@ if (!json.url) throw '❎ Error'
 conn.sendFile(m.chat, json.url, 'img.jpg', `✅ Random ${command}`, m)
 m.react(dmoji)
 }
+<<<<<<< Updated upstream
 handler.help = ['genshin', 'swimsuit', 'schoolswimsuit', 'white', 'barefoot', 'touhou', 'gamecg', 'holo', 'uncensored', 'sunglass', 'glass', 'weapon', 'shirt lift', 'chain', 'fingering', 'flat chest', 'torn cloth', 'bondage', 'demon', 'wet', 'pantypull', 'headdress', 'headphone', 'tie', 'anus', 'shorts','stokings', 'topless', 'beach', 'bunnygirl', 'bunnyear', 'idol', 'vampire', 'gun', 'maid', 'bra', 'nobra', 'bikini', 'whitehair', 'blonde', 'pinkhair', 'bed', 'ponytail', 'nude', 'dress', 'underwear', 'foxgirl', 'uniform', 'skirt', 'sex', 'sex2', 'sex3', 'breast', 'twintail', 'spussy' ]
 handler.command = ['genshin', 'swimsuit', 'schoolswimsuit', 'white', 'barefoot', 'touhou', 'gamecg', 'holo', 'uncensored', 'sunglass', 'glass', 'weapon', 'shirt lift', 'chain', 'fingering', 'flat chest', 'torn cloth', 'bondage', 'demon', 'wet', 'pantypull', 'headdress', 'headphone', 'tie', 'anus', 'shorts','stokings', 'topless', 'beach', 'bunnygirl', 'bunnyear', 'idol', 'vampire', 'gun', 'maid', 'bra', 'nobra', 'bikini', 'whitehair', 'blonde', 'pinkhair', 'bed', 'ponytail', 'nude', 'dress', 'underwear', 'foxgirl', 'uniform', 'skirt', 'sex', 'sex2', 'sex3', 'breast', 'twintail', 'spussy']
+=======
+handler.help = ['genshin', 'loli', 'swimsuit', 'schoolswimsuit', 'white', 'barefoot', 'touhou', 'gamecg', 'holo', 'uncensored', 'sunglass', 'glass', 'weapon', 'shirt lift', 'chain', 'fingering', 'flat chest', 'torn cloth', 'bondage', 'demon', 'wet', 'pantypull', 'headdress', 'headphone', 'tie', 'anus', 'shorts','stokings', 'topless', 'beach', 'bunnygirl', 'bunnyear', 'idol', 'vampire', 'gun', 'maid', 'bra', 'nobra', 'bikini', 'whitehair', 'blonde', 'pinkhair', 'bed', 'ponytail', 'nude', 'dress', 'underwear', 'foxgirl', 'uniform', 'skirt', 'sex', 'sex2', 'sex3', 'breast', 'twintail', 'spussy' ]
+handler.command = ['genshin', 'loli', 'swimsuit', 'schoolswimsuit', 'white', 'barefoot', 'touhou', 'gamecg', 'holo', 'uncensored', 'sunglass', 'glass', 'weapon', 'shirt lift', 'chain', 'fingering', 'flat chest', 'torn cloth', 'bondage', 'demon', 'wet', 'pantypull', 'headdress', 'headphone', 'tie', 'anus', 'shorts','stokings', 'topless', 'beach', 'bunnygirl', 'bunnyear', 'idol', 'vampire', 'gun', 'maid', 'bra', 'nobra', 'bikini', 'whitehair', 'blonde', 'pinkhair', 'bed', 'ponytail', 'nude', 'dress', 'underwear', 'foxgirl', 'uniform', 'skirt', 'sex', 'sex2', 'sex3', 'breast', 'twintail', 'spussy']
+>>>>>>> Stashed changes
 handler.tags = ['nsfw'] 
 handler.diamond = true
 handler.group = true
@@ -22,4 +27,8 @@ export default handler
 
 function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
